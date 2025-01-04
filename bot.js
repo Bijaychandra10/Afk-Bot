@@ -13,8 +13,8 @@ function createBot() {
       username: config['bot-account']['username'],
       password: config['bot-account']['password'],
       auth: config['bot-account']['type'],
-      host: config.server.ip,
-      port: config.server.port,
+      host: config.server.ip,192.168.1.36
+      port: config.server.port,25565
       version: config.server.version,
    });
 
